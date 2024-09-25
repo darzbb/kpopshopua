@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="theme-link" rel="stylesheet" href="styleblue.css">
+    <title>K-Pop shop UA</title>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="title"><h1>k-pop shop ua</h1></div>
+        </header>
+        <nav id="mainNav">
+            <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Про нас</div>
+            <div class='nav-item' onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'});">Популярні товари</div>
+            <div class='nav-item' onclick="document.getElementById('contacts').scrollIntoView({behavior: 'smooth'});">Контакти</div>
+            <div class='nav-item'><span class='cart-text'>Кошик</span> <span class='cart-amount'>0</span></div>
+            <div class='nav-item switch-theme-button'>Змінити тему</div>
+        </nav>
+    <main>
+        <div id="floating-nav" class="hidden0">
+            <div id="toggle-button">&laquo;</div>
+            <div class="nav-item" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Про нас</div>
+            <div class="nav-item" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'});">Популярні товари</div>
+            <div class="nav-item" onclick="document.getElementById('contacts').scrollIntoView({behavior: 'smooth'});">Контакти</div>
+            <div id="floating-nav-btn" class='switch-theme-button'>Змінити тему</div>
+        </div>                
+        <div class="sales"><h2>Знижки на популярні релізи вересня! -<i>15%</i></h2></div>
+        <div class="slider-container">
+            <div class="slider">
+        <div class="slide active" alt="slide-1">
+            <div class="image-container">
+                <img src="XG NEW DNA.png">
+                <div class="caption">XG - NEW DNA</br>Лімітована версія</br><s>1,970 грн</s> 1,675 грн</div>
+            </div>
+            <div class="image-container">
+                <img src="PURPLE KISS FESTA.png">
+                <div class="caption">PURPLE KISS - FESTA</br>Головна версія</br><s>1,160 грн</s> 985 грн</div>
+            </div>
+            <div class="image-container">
+                <img src="BLACKPINK Born Pink Standart.png">
+                <div class="caption">BLACKPINK - Born Pink</br>Звичайна версія</br><s>1,250 грн</s> 1,060 грн</div>
+            </div>
+            <div class="image-container">
+                <img src="NMIXX ENTWURF Light.png">
+                <div class="caption">NMIXX - ENTWURF</br>Light версія</br><s>1,010 грн</s> 855 грн</div>
+            </div>
+        </div>
+        <div class="slide" alt="slide-2">
+            <div class="image-container">
+                <img src="Lisa LALISA.png">
+                <div class="caption">LISA (BLACKPINK) - LALISA</br>-</br><s>1,200 грн</s> 1,020 грн</div>
+            </div>
+            <div class="image-container">
+                <img src="STAYC Stereotype.png">
+                <div class="caption">STAYC - Stereotype</br>-</br><s>1,100 грн</s> 935 грн</div>
+            </div>
+            <div class="image-container">
+                <img src="EVERGLOW -77.82X-78.29.png">
+                <div class="caption">EVERGLOW - -77.82X-78.29</br>-</br><s>970 грн</s> 825 грн</div>
+            </div>
+            <div class="image-container">
+                <img src="fromis9 My Little Society.png">
+                <div class="caption">fromis_9 - My Little Society</br>-</br><s>930 грн</s> 790 грн</div>
+            </div>
+        </div>
+    </div>
+        <div class="navigation">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+    </div>
+    <div class="about-title" id="about"><h2>Про нас</h2></div>
+    <div class="about-us">
+        <span>"K-Pop Shop UA"</span> — це не просто магазин, це портал у світ K-Pop, де кожен шанувальник може відчути себе частиною улюбленого всесвіту. У нас ви знайдете безліч товарів, пов'язаних з вашими улюбленими K-Pop гуртами, від альбомів і плакатів до ексклюзивних колекційних предметів.</br>
+        Ми запустили наш онлайн-магазин у травні 2021 року, а перший фізичний магазин відкрили в Києві у травні 2022 року. Станом на 2024 рік наші магазини вже присутні у великих містах України, таких як Київ, Дніпро та Львів, забезпечуючи фанатів найновішими та найякіснішими товарами зі світу K-Pop.</br>
+        Хочемо зазначити, що K-Pop Shop UA фокусується саме на <b>жіночіх</b> гуртах.
+    </div>
+    <div class="message-popup"><h3>Товар додано у кошик</h3></div>
+        <div class="products-title" id="products"><h2>Популярні товари</h2></div>
+        <section class="products-cards">
+            <div class="product" alt="aespa">
+                <img src="aespa Armageddon.png">
+                <div class="product-caption">aespa - Armageddon </br>Zine версія</br>990 грн</span></div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product" alt="aespa">
+                <img src="aespa Drama.png">
+                <div class="product-caption">aespa - Drama </br>Drama версія</br>1,300 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product" alt="aespa">
+                <img src="aespa MY WORLD Zine.png">
+                <div class="product-caption">aespa - MY WORLD </br>Zine версія</br>1,100 грн</span></div>
+                <div class="add-to-cart-btn-menu" alt="aespa-myworld">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="aespa-myworld">
+                    <div class="menu-item-a">Welcome To MY World</div>
+                    <div class="menu-item-na">Spicy</div>
+                </div>
+            </div>
+            <div class="product" alt="aespa">
+                <img src="aespa Girls.png">
+                <div class="product-caption">aespa - Girls </br>-</br>1,090 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product" alt="artms">
+                <img src="ARTMS Official Lightstick.png">
+                <div class="product-caption">ARTMS - Official Lightstick </br>-</br>3,300 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product" alt="artms">
+                <img src="ARTMS Dall.png">
+                <div class="product-caption">ARTMS - Dall </br>Звичайна версія</br>1,220 грн</span></div>
+                <div class="add-to-cart-btn-menu" alt="artms-dall">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="artms-dall">
+                    <div class="menu-item-a">A</div>
+                    <div class="menu-item-a">B</div>
+                    <div class="menu-item-a">Сет (A + B)</br><s>2,440 грн</s> 2,195 грн</div></div>
+                </div>
+            </div>
+            <div class="product" alt="artms">
+                <img src="ARTMS HeeJin K.png">
+                <div class="product-caption">HeeJin (ARTMS) - K </br>-</br>1,100 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product" alt="artms">
+                <img src="ARTMS ODD EYE CIRCLE Version Up.png">
+                <div class="product-caption">ODD EYE CIRCLE (ARTMS) - Version Up </br>-</br>1,170 грн</span></div>
+                <div class="add-to-cart-btn-menu" alt="oddeyecircle-versionup">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="oddeyecircle-versionup">
+                    <div class="menu-item-na">Kim Lip</div>
+                    <div class="menu-item-na">JinSoul</div>
+                    <div class="menu-item-a">Choerry</div>
+                </div>
+            </div>
+            <div class="product" alt="billlie">
+                <img src="Billlie the Billage of perception chapter three.png">
+                <div class="product-caption">Billlie - the Billage of perception: chapter three </br>-</br>1,210 грн</div>
+                <div class="add-to-cart-btn-menu" alt="billlie-tbopct">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="billlie-tbopct">
+                    <div class="menu-item-na">01:01 AM collection</div>
+                    <div class="menu-item-na">11:11 AM collection</div>
+                    <div class="menu-item-a">11:11 PM collection</div>
+                </div>
+            </div>
+            <div class="product" alt="billlie">
+                <img src="the Billage of perception chapter two.png">
+                <div class="product-caption">Billlie - the Billage of perception: chapter two </br>-</br>1,210 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product" alt="billlie">
+                <img src="Billlie the collective soul and unconscious chapter one.png">
+                <div class="product-caption">Billlie - the collective soul and unconscious: chapter one </br>-</br>1,200 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product" alt="billlie">
+                <img src="Billlie the Billage of perception chapter one.png">
+                <div class="product-caption">Billlie - the Billage of perception: chapter one </br>-</br>1,200 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="show-all">Показати всі товари</div>
+            <div class="product hidden" alt="blackpink">
+                <img src="BLACKPINK JISOO Me.png">
+                <div class="product-caption">JISOO (BLACKPINK) - Me </br>Звичайна версія</br>1,300 грн</div>
+                <div class="add-to-cart-btn-menu" alt="blackpink-thealbum">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="blackpink-thealbum">
+                    <div class="menu-item-a">Чорна</div>
+                    <div class="menu-item-na">Червона</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="blackpink">
+                <img src="BLACKPINK Born Pink Standart.png">
+                <div class="product-caption">BLACKPINK - Born Pink </br>Звичайна версія</br><s class="old-price">1,250 грн</s> 1,060 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="blackpink">
+                <img src="BLACKPINK Born Pink KiT.png">
+                <div class="product-caption">BLACKPINK - Born Pink </br>KiT версія</br><s class="old-price">1,400 грн</s> 1,190 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="blackpink">
+                <img src="BLACKPINK Born Pink Digipack.png">
+                <div class="product-caption">BLACKPINK - Born Pink </br>Digipack версія</br><s class="old-price">990 грн</s> 840 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="chuu">
+                <img src="CHUU Howl.png">
+                <div class="product-caption">CHUU - Howl </br>Звичайна версія</br>1,100 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="chuu">
+                <img src="CHUU 2024 Season's Greetings.png">
+                <div class="product-caption">CHUU - 2024 Season's Greetings </br>-</br>1,880 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="chuu">
+                <img src="CHUU Strawberry Rush Standart.png">
+                <div class="product-caption">CHUU - Strawberry Rush </br>Звичайна версія</br>1,100 грн</div>
+                <div class="add-to-cart-btn-menu" alt="chuu-strawberryrush">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="chuu-strawberryrush">
+                    <div class="menu-item-na">Strawberry</div>
+                    <div class="menu-item-a">Rush</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="chuu">
+                <img src="CHUU Strawberry Rush STAYG.png">
+                <div class="product-caption">CHUU - Strawberry Rush </br>STAYG версія</br>950 грн</div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product hidden" alt="dreamcatcher">
+                <img src="Dreamcatcher VirtuouS Limited.png">
+                <div class="product-caption">Dreamcatcher - VirtuouS </br>Лімітована версія B</br>1,690 грн</div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product hidden" alt="dreamcatcher">
+                <img src="Dreamcatcher VillainS Limited.png">
+                <div class="product-caption">Dreamcatcher - VillainS </br>Лімітована версія C</br>1,670 грн</div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product hidden" alt="dreamcatcher">
+                <img src="Dreamcatcher Apocalypse From Us Limited.png">
+                <div class="product-caption">Dreamcatcher - Apocalypse: From Us </br>Лімітована версія</br>1,720 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="dreamcatcher">
+                <img src="Dreamcatcher Apocalypse Follow Us.png">
+                <div class="product-caption">Dreamcatcher - Apocalypse: Follow Us </br>Лімітована версія</br>1,680 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="fromis_9">
+                <img src="fromis9 Supersonic.png">
+                <div class="product-caption">fromis_9 - Supersonic </br>Звичайна версія</br>1,080 грн</div>
+                <div class="add-to-cart-btn-menu" alt="supersonic">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="supersonic">
+                    <div class="menu-item-a">HEAT</div>
+                    <div class="menu-item-a">JUICY</div>
+                    <div class="menu-item-a">Сет (HEAT + JUICY)</br><s>2,160 грн</s> 1,940 грн</div></div>
+                </div>
+            </div>
+            <div class="product hidden" alt="fromis_9">
+                <img src="fromis9 Unlock My World.png">
+                <div class="product-caption">fromis_9 - Unlock My World </br>Звичайна версія</br>1,160 грн</div>
+                <div class="add-to-cart-btn-menu" alt="fromis_9-unlockmyworld">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="fromis_9-unlockmyworld">
+                    <div class="menu-item-na">#reality</div>
+                    <div class="menu-item-a">#notyet</div>
+                    <div class="menu-item-na">#imagines</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="fromis_9">
+                <img src="fromis9 from our Memento Box.png">
+                <div class="product-caption">fromis_9 - from our Memento Box </br>Звичайна версія</br>1,120 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="fromis_9">
+                <img src="fromis9 Midnight Guest.png">
+                <div class="product-caption">fromis_9 - Midnight Guest </br>Звичайна версія</br>1,150 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="(g)i-dle">
+                <img src="(G)I-DLE I Sway Standart.png">
+                <div class="product-caption">(G)I-DLE - I Sway </br>Звичайна версія</br>1,000 грн</div>
+                <div class="add-to-cart-btn-menu" alt="(g)i-dle-isway">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="(g)i-dle-isway">
+                    <div class="menu-item-na">Wind</div>
+                    <div class="menu-item-a">Wave</div>
+                    <div class="menu-item-a">Beat</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="(g)i-dle">
+                <img src="(G)I-DLE 2.png">
+                <div class="product-caption">(G)I-DLE - 2 </br>Звичайна версія + лімітована фотокартка</br>1,390 грн</div>
+                <div class="add-to-cart-btn-menu" alt="(g)i-dle-2">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="(g)i-dle-2">
+                    <div class="menu-item-a">0</div>
+                    <div class="menu-item-na">1</div>
+                    <div class="menu-item-na">2</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="(g)i-dle">
+                <img src="(G)I-DLE I Feel.png">
+                <div class="product-caption">(G)I-DLE - I Feel </br>Queen версія</br>980 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="(g)i-dle">
+                <img src="(G)I-DLE I Love.png">
+                <div class="product-caption">(G)I-DLE - I Love </br>Звичайна версія</br>1,200 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="itzy">
+                <img src="ITZY BORN TO BE Limited.png">
+                <div class="product-caption">ITZY - BORN TO BE </br>Лімітована версія</br>1,000 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="itzy">
+                <img src="ITZY KILL MY DOUBT Limited.png">
+                <div class="product-caption">ITZY - KILL MY DOUBT </br>Лімітована версія + POBs</br>1,090 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="itzy">
+                <img src="ITZY CHESHIRE Limited.png">
+                <div class="product-caption">ITZY - CHESHIRE </br>Лімітована версія + POBs</br>1,280 грн</div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product hidden" alt="itzy">
+                <img src="ITZY CHECKMATE Limited.png">
+                <div class="product-caption">ITZY - CHECKMATE </br>Лімітована версія + POBs</br>1,410 грн</div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product hidden" alt="ive">
+                <img src="IVE IVE Switch.png">
+                <div class="product-caption">IVE - IVE Switch </br>Звичайна версія + POBs</br>1,100-1,220 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="ive">
+                <img src="IVE IVE IVE.png">
+                <div class="product-caption">IVE - I'VE IVE </br>Звичайна версія</br>1,100 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="ive">
+                <img src="IVE After Like.png">
+                <div class="product-caption">IVE - After Like </br>Звичайна версія</br>990 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="ive">
+                <img src="IVE Love Dive.png">
+                <div class="product-caption">IVE - Love Dive </br>Звичайна версія</br>990 грн</div>
+                <div class="add-to-cart-btn-menu" alt="ive-lovedive">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="ive-lovedive">
+                    <div class="menu-item-a">VER. 1 (червона)</div>
+                    <div class="menu-item-na">VER. 2 (синя)</div>
+                    <div class="menu-item-a">VER. 3 (рожева)</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="kep1er">
+                <img src="Kep1er Kep1going On.png">
+                <div class="product-caption">Kep1er - Kep1going On </br>Звичайна версія</br>1,200 грн</div>
+                <div class="add-to-cart-btn-menu" alt="kep1er-kep1goingon">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="kep1er-kep1goingon">
+                    <div class="menu-item-a">SCENE</div>
+                    <div class="menu-item-a">NOUS</div>
+                    <div class="menu-item-a">Сет (SCENE + NOUS)</br><s>2,400 грн</s> 2,160 грн</div></div>
+                </div>
+            </div>
+            <div class="product hidden" alt="kep1er">
+                <img src="Kep1er Magic Hour.png">
+                <div class="product-caption">Kep1er - Magic Hour </br>Звичайна версія</br><s>1,100 грн</s> 935 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="kep1er">
+                <img src="Kep1er LOVESTRUCK!.png">
+                <div class="product-caption">Kep1er - LOVESTRUCK! </br>Звичайна версія</br>1,300 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="kep1er">
+                <img src="Kep1er DOUBLAST.png">
+                <div class="product-caption">Kep1er - DOUBLAST </br>Звичайна версія</br>1,200 грн</div>
+                <div class="add-to-cart-btn-menu" alt="kep1er-doublast">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="kep1er-doublast">
+                    <div class="menu-item-a">BLUE BLAST</div>
+                    <div class="menu-item-a">LEMON BLAST</div>
+                    <div class="menu-item-a">Сет (BLUE BLAST + LEMON BLAST)</br><s>2,400 грн</s> 2,160 грн</div></div>
+                </div>
+            </div>
+            <div class="product hidden" alt="kissoflife">
+                <img src="KIOF Midas Touch.png">
+                <div class="product-caption">KISS OF LIFE - Midas Touch </br>Photobook версія</br>1,100 грн</div>
+                <div class="add-to-cart-btn">У кошик</div>
+            </div>
+            <div class="product hidden" alt="kissoflife">
+                <img src="KIOF 2024 Season’s Greetings.png">
+                <div class="product-caption">KISS OF LIFE - 2024 Season's Greetings </br>-</br>1,850 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="kissoflife">
+                <img src="KIOF Born to be XX.png">
+                <div class="product-caption">KISS OF LIFE - Born to be XX </br>Звичайна версія</br>1,050 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="kissoflife">
+                <img src="KIOF KISS OF LIFE.png">
+                <div class="product-caption">KISS OF LIFE - KISS OF LIFE </br>-</br>1,100 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="lesserafim">
+                <img src="LE SSERAFIM EASY.png">
+                <div class="product-caption">LE SSERAFIM - EASY </br>Звичайна версія</br>1,150 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="lesserafim">
+                <img src="LE SSERAFIM UNFORGIVEN Jp.png">
+                <div class="product-caption">LE SSERAFIM - UNFORGIVEN </br>Японський альбом - лімітована Member версія</br>950 грн</div>
+                <div class="add-to-cart-btn-menu" alt="lesserafim-unforgiven-jp">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="lesserafim-unforgiven-jp">
+                    <div class="menu-item-na">Sakura</div>
+                    <div class="menu-item-na">Kim Chaewon</div>
+                    <div class="menu-item-a">Huh Yunjin</div>
+                    <div class="menu-item-na">Kazuha</div>
+                    <div class="menu-item-a">Hong Eunchae</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="lesserafim">
+                <img src="LE SSERAFIM UNFORGIVEN.png">
+                <div class="product-caption">LE SSERAFIM - UNFORGIVEN </br>Звичайна версія</br>1,170 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="lesserafim">
+                <img src="LE SSERAFIM ANTIFRARGILE.png">
+                <div class="product-caption">LE SSERAFIM - ANTIFRARGILE </br>Звичайна версія</br>1,175 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="loona">
+                <img src="LOONA LUMINOUS Limited Member.png">
+                <div class="product-caption">LOONA - LUMINOUS </br>Лімітована Member версія</br><s class="old-price">950 грн</s> 805 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="loona">
+                <img src="LOONA LUMINOUS Limited.png">
+                <div class="product-caption">LOONA - LUMINOUS </br>Лімітована версія</br><s class="old-price">1,100 грн</s> 935 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="loona">
+                <img src="LOONA Flip That.png">
+                <div class="product-caption">LOONA - Flip That </br>-</br>1,150 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="loona">
+                <img src="LOONA.png">
+                <div class="product-caption">LOONA - [#] </br>Лімітована версія</br>1,090 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+            <div class="product hidden" alt="loossemble">
+                <img src="Loossemble One of a Kind.png">
+                <div class="product-caption">Loossemble - One of a Kind </br>Звичайна версія</br>1,100 грн</div>
+                <div class="add-to-cart-btn-menu" alt="loossemble-oneofakind">У кошик</div>
+                <div id="version-selection" class="menu-popup" alt="loossemble-oneofakind">
+                    <div class="menu-item-na">Day</div>
+                    <div class="menu-item-na">Night</div>
+                    <div class="menu-item-a">Dawn</div>
+                </div>
+            </div>
+            <div class="product hidden" alt="loossemble">
+                <img src="Loossemble 2024 season's greetings.png">
+                <div class="product-caption">Loossemble - 2024 Season's Greetings </br>-</br>1,900 грн</div>
+                <div class="na-btn">Немає в наявності</div>
+            </div>
+                <div class="product hidden" alt="loossemble">
+                    <img src="Loossemble Loossemble Standart.png">
+                    <div class="product-caption">Loossemble - Loossemble </br>Звичайна версія</br><s class="old-price">1,200 грн</s> 1,020 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="loossemble">
+                    <img src="Loossemble Loossemble Ever music.png">
+                    <div class="product-caption">Loossemble - Loossemble </br>EVER MUSIC Album версія</br><s class="old-price">620 грн</s> 525 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="loossemble-loossemble-evermusic">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="loossemble-loossemble-evermusic">
+                        <div class="menu-item-a">HyunJin</div>
+                        <div class="menu-item-na">YeoJin</div>
+                        <div class="menu-item-na">ViVi</div>
+                        <div class="menu-item-a">Go Won</div>
+                        <div class="menu-item-na">HyeJu</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="newjeans">
+                    <img src="NewJeans How Sweet.png">
+                    <div class="product-caption">NewJeans - How Sweet </br>Звичайна версія</br>1,370 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="newjeans-howsweet">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="newjeans-howsweet">
+                        <div class="menu-item-a">NewJeans</div>
+                        <div class="menu-item-a">Minji</div>
+                        <div class="menu-item-na">Hanni</div>
+                        <div class="menu-item-na">Danielle</div>
+                        <div class="menu-item-na">Haerin</div>
+                        <div class="menu-item-a">Hyein</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="newjeans">
+                    <img src="NewJeans OMG.png">
+                    <div class="product-caption">NewJeans - OMG </br>Message Card версія</br>1,010 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="newjeans">
+                    <img src="NewJeans Get Up.png">
+                    <div class="product-caption">NewJeans - Get Up </br>Bunny Beach Bag версія</br>1,400 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="newjeans-getup">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="newjeans-getup">
+                        <div class="menu-item-a">NewJeans</div>
+                        <div class="menu-item-na">Minji</div>
+                        <div class="menu-item-a">Hanni</div>
+                        <div class="menu-item-na">Danielle</div>
+                        <div class="menu-item-a">Haerin</div>
+                        <div class="menu-item-na">Hyein</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="newjeans">
+                    <img src="NewJeans 1st EP.png">
+                    <div class="product-caption">NewJeans - 1st EP </br>Bluebook версія</br>1,330 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="nmixx">
+                    <img src="NMIXX Fe3O4 BREAK.png">
+                    <div class="product-caption">NMIXX - Fe3O4: BREAK </br>Звичайна версія</br>930 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="nmixx">
+                    <img src="NMIXX A Midsummer NMIXX’s Dream.png">
+                    <div class="product-caption">NMIXX - A Midsummer NMIXX's Dream </br>Звичайна версія</br>900 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="nmixx-amnd">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="nmixx-amnd">
+                        <div class="menu-item-a">Athens</div>
+                        <div class="menu-item-a">Forest</div>
+                        <div class="menu-item-a">Сет (Athens + Forest)</br><s>1,800 грн</s> 1,620 грн</div></div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="nmixx">
+                    <img src="NMIXX expérgo.png">
+                    <div class="product-caption">NMIXX - expérgo </br>Лімітована версія</br>1,200 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="nmixx-expergo">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="nmixx-expergo">
+                        <div class="menu-item-na">LILY</div>
+                        <div class="menu-item-na">HAEWON</div>
+                        <div class="menu-item-na">SULLYOON</div>
+                        <div class="menu-item-a">BAE</div>
+                        <div class="menu-item-a">JIWOO</div>
+                        <div class="menu-item-na">KYUJIN</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="nmixx">
+                    <img src="NMIXX ENTWURF.png">
+                    <div class="product-caption">NMIXX - ENTWURF </br>Лімітована версія</br><s class="old-price">1,210 грн</s> 1025 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="redvelvet">
+                    <img src="Red Velvet Cosmic Limited.png">
+                    <div class="product-caption">Red Velvet - Cosmic </br>Лімітована Cosmie версія</br>1,700 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="redvelvet-cosmic-limited">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="redvelvet-cosmic-limited">
+                        <div class="menu-item-a">Брелок Cosmie A (блактинкий)</div>
+                        <div class="menu-item-a">Брелок Cosmie B (рожевий)</div>
+                        <div class="menu-item-a">Брелок Cosmie C (жовтий)</div>
+                        <div class="menu-item-a">Брелок Cosmie D (фіолетовий)</div>
+                        <div class="menu-item-a">Брелок Cosmie E (зелений)</div>
+                        <div class="menu-item-a">Сет (5x Limited Cosmie)</br><s>8,500 грн</s> 7,650 грн</div></div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="redvelvet">
+                    <img src="Red Velvet Cosmic Photobook.png">
+                    <div class="product-caption">Red Velvet - Cosmic </br>Photobook версія</br>1,240 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="redvelvet-cosmic-photobook">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="redvelvet-cosmic-photobook">
+                        <div class="menu-item-a">Hotel</div>
+                        <div class="menu-item-a">Midnight</div>
+                        <div class="menu-item-a">Сет (Hotel + Midnight)</br><s>2,480 грн</s> 2,230 грн</div></div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="redvelvet">
+                    <img src="Red Velvet Chill Kill.png">
+                    <div class="product-caption">Red Velvet - Chill Kill </br>Лімітована Bag версія</br>1,640 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="redvelvet">
+                    <img src="Red Velvet Feel My Rhythm.png">
+                    <div class="product-caption">Red Velvet - The ReVe Festival 2022: Feel My Rhythm </br>Orgel версія</br>900 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="snsd">
+                    <img src="SNSD FOREVER 1 Deluxe.png">
+                    <div class="product-caption">SNSD - FOREVER 1 </br>Deluxe версія</br>1,380 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="snsd">
+                    <img src="SNSD FOREVER 1 Standart.png">
+                    <div class="product-caption">SNSD - FOREVER 1 </br>Звичайна версія</br>1,070 грн</div>
+                    <div class="add-to-cart-btn">У кошик</div>
+                </div>
+                <div class="product hidden" alt="snsd">
+                    <img src="SNSD Taeyeon INVU Limited.png">
+                    <div class="product-caption">Taeyeon (SNSD) - INVU </br>Лімітована версія</br>1,290 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="snsd">
+                    <img src="SNSD Taeyeon INVU Standart.png">
+                    <div class="product-caption">Taeyeon (SNSD) - INVU </br>Звичайна версія</br>1,170 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="soojin">
+                    <img src="SOOJIN RIZZ Standart.png">
+                    <div class="product-caption">SOOJIN - RIZZ </br>Photobook версія</br>1,250 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="soojin">
+                    <img src="SOOJIN RIZZ Jewel.png">
+                    <div class="product-caption">SOOJIN - RIZZ </br>Jewel версія</br>950 грн</div>
+                    <div class="add-to-cart-btn">У кошик</div>
+                </div>
+                <div class="product hidden" alt="soojin">
+                    <img src="SOOJIN AGASSY (아가씨) Standart.png">
+                    <div class="product-caption">SOOJIN - AGASSY (아가씨) </br>Звичайна версія</br>1,180 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="soojin">
+                    <img src="SOOJIN AGASSY (아가씨) Jewel.png">
+                    <div class="product-caption">SOOJIN - AGASSY (아가씨) </br>Jewel версія</br>910 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="soojin-agassy-jewel">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="soojin-agassy-jewel">
+                        <div class="menu-item-na">A</div>
+                        <div class="menu-item-a">B</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="stayc">
+                    <img src="STAYC Metamorphic.png">
+                    <div class="product-caption">STAYC - Metamorphic </br>Звичайна версія</br>1,140 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="stayc-metamorphic">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="stayc-metamorphic">
+                        <div class="menu-item-a">Cheeky</div>
+                        <div class="menu-item-a">Icy</div>
+                        <div class="menu-item-a">Сет (Cheeky + Icy)</br><s>2,280 грн</s> 2,050 грн</div></div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="stayc">
+                    <img src="STAYC Teenfresh.png">
+                    <div class="product-caption">STAYC - Teenfresh </br>Ексклюзивна POP-UP версія</br>1,370 грн</div>
+                    <div class="add-to-cart-btn">У кошик</div>
+                </div>
+                <div class="product hidden" alt="stayc">
+                    <img src="STAYC Teddy Bear.png">
+                    <div class="product-caption">STAYC - Teddy Bear </br>Звичайна версія</br>990 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="stayc">
+                    <img src="STAYC WE NEED LOVE.png">
+                    <div class="product-caption">STAYC - WE NEED LOVE </br>Звичайна версія</br>860 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="stayc-weneedlove">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="stayc-weneedlove">
+                        <div class="menu-item-na">LOVE</div>
+                        <div class="menu-item-a">POWER</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="triples">
+                    <img src="tripleS ASSEMBLE24.png">
+                    <div class="product-caption">tripleS - ASSEMBLE24 </br>Звичайна версія</br>1,240 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="triples">
+                    <img src="tripleS EVOlution.png">
+                    <div class="product-caption">tripleS - EVOLution <⟡> (MUJUK) </br>Звичайна версія</br>1,140 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="triples">
+                    <img src="tripleS LOVElution.png">
+                    <div class="product-caption">tripleS - LOVElution <ↀ> (MUHAN) </br>Звичайна версія</br>1,140 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="triples">
+                    <img src="tripleS (KR)ystal Eyes.png">
+                    <div class="product-caption">tripleS - +(KR)ystal Eyes (AESTHETIC) </br>Звичайна версія</br>1,100 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="triples-(kr)ystaleyes">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="triples-(kr)ystaleyes">
+                        <div class="menu-item-a">A</div>
+                        <div class="menu-item-na">B</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="twice">
+                    <img src="TWICE With YOU-th.png">
+                    <div class="product-caption">TWICE - With YOU-th </br>Звичайна версія</br>1,130 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="twice-withyou-th">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="twice-withyou-th">
+                        <div class="menu-item-na">Forever</div>
+                        <div class="menu-item-na">Glowing</div>
+                        <div class="menu-item-a">Blast</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="twice">
+                    <img src="TWICE READY TO BE.png">
+                    <div class="product-caption">TWICE - READY TO BE </br>Звичайна версія</br>1,210 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="twice-readytobe">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="twice-readytobe">
+                        <div class="menu-item-na">READY</div>
+                        <div class="menu-item-a">TO</div>
+                        <div class="menu-item-na">BE</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="twice">
+                    <img src="TWICE Between 1&2.png">
+                    <div class="product-caption">TWICE - Between 1&2 </br>Звичайна версія</br>1,250 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="twice-between1&2">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="twice-between1&2">
+                        <div class="menu-item-na">Archive</div>
+                        <div class="menu-item-a">Complete</div>
+                        <div class="menu-item-na">Cryptography</div>
+                        <div class="menu-item-a">Pathfinder</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="twice">
+                    <img src="TWICE Nayeon IM NAYEON.png">
+                    <div class="product-caption">Nayeon (TWICE) - IM NAYEON </br>Звичайна версія</br>1,190 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="nayeon-imnayeon">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="nayeon-imnayeon">
+                        <div class="menu-item-a">I'M</div>
+                        <div class="menu-item-na">NA</div>
+                        <div class="menu-item-a">YEON</div>
+                        <div class="menu-item-na">POP</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="viviz">
+                    <img src="VIVIZ VERSUS.png">
+                    <div class="product-caption">VIVIZ - VERSUS </br>Photobook версія</br>1,075 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="viviz">
+                    <img src="VIVIZ VarioUS.png">
+                    <div class="product-caption">VIVIZ - VarioUS </br>Photobook версія</br>1,150 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="viviz-various">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="viviz-various">
+                        <div class="menu-item-na">CLAZZY</div>
+                        <div class="menu-item-a">SIDE-A</div>
+                        <div class="menu-item-a">OFF&ON</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="viviz">
+                    <img src="VIVIZ Summer Vibe.png">
+                    <div class="product-caption">VIVIZ - Summer Vibe </br>Photobook версія</br>1,100 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="viviz-summervibe">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="viviz-summervibe">
+                        <div class="menu-item-a">Flying Point</div>
+                        <div class="menu-item-na">Ready to Summer</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="viviz">
+                    <img src="VIVIZ Beam Of Prism.png">
+                    <div class="product-caption">VIVIZ - Beam Of Prism </br>-</br>1,095 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="wjsn">
+                    <img src="WJSN Daily WJSN.png">
+                    <div class="product-caption">WJSN - Daily WJSN </br>-</br>1,350-1,570 грн</div>
+                    <div class="na-btn">Немає в наявності</div>
+                </div>
+                <div class="product hidden" alt="wjsn">
+                    <img src="WJSN Sequence Standart.png">
+                    <div class="product-caption">WJSN - Sequence </br>Звичайна версія + POBs</br>1,100 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="wjsn-lastsequence-standart">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="wjsn-lastsequence-standart">
+                        <div class="menu-item-na">Scene</div>
+                        <div class="menu-item-a">Take 1</div>
+                        <div class="menu-item-a">Take 2</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="wjsn">
+                    <img src="WJSN Sequence Limited.png">
+                    <div class="product-caption">WJSN - Sequence </br>Лімітована Jewel версія</br>800 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="wjsn-lastsequence-jewel">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="wjsn-lastsequence-jewel">
+                        <div class="menu-item-a">EXY</div>
+                        <div class="menu-item-na">SeolA</div>
+                        <div class="menu-item-na">Bona</div>
+                        <div class="menu-item-a">Soobin</div>
+                        <div class="menu-item-na">Luda</div>
+                        <div class="menu-item-a">Dawon</div>
+                        <div class="menu-item-a">Eunseo</div>
+                        <div class="menu-item-na">Yeoreum</div>
+                        <div class="menu-item-na">Dayoung</div>
+                        <div class="menu-item-a">Yeonjung</div>
+                    </div>
+                </div>
+                <div class="product hidden" alt="wjsn">
+                    <img src="WJSN Unnatural.png">
+                    <div class="product-caption">WJSN - UNNATURAL </br>-</br>1,090 грн</div>
+                    <div class="add-to-cart-btn-menu" alt="wjsn-unnatural">У кошик</div>
+                    <div id="version-selection" class="menu-popup" alt="wjsn-unnatural">
+                        <div class="menu-item-na">VER. 1 (помаранчева)</div>
+                        <div class="menu-item-a">VER. 2 (фіолетова)</div>
+                        <div class="menu-item-a">VER. 3 (синя)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contacts-title" id="contacts"><h2>Наша контактна інформація</h2></div>
+    </main>
+    <footer>
+        <section>
+        <div class="footer-section" id="contacts">
+            <h3>Контакти</h3>
+            <p>Ви можете знайти нас за наступними адресами:</p>
+            <ul>
+                <li>м. Київ, вул. Хрещатик, 22</li>
+                <li>м. Дніпро, пр. Дмитра Яворницького, 70</li>
+                <li>м. Львів, пл. Ринок, 32</li>
+            </ul>
+            <p>Email: info@kpopshopua.com</p>
+            <p>Телефон: +380 67 123 45 67</p>
+        </div>
+        <div class="footer-section">
+            <h3>Соціальні мережі</h3>
+            <p>Слідкуйте за нами у соціальних мережах:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Години роботи</h3>
+            <p>Наші магазини працюють з:</p>
+            <p>Понеділка по П'ятницю: 10:00 - 20:00</p>
+            <p>Субота: 11:00 - 18:00</p>
+            <p>Неділя: Вихідний</p>
+        </div>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</body>
+</html>
